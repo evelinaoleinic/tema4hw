@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="tema pentru acasa4">
+    <link rel="icon" type="image/x-ixon" href="data:image/png;base64,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">
+    <title>Tema4HW</title>
 </head>
 <body>
+    <header>
+        <nav style="display: flex; width: 100%; justify-content: space-between; border: 1px solid grey">
+            <a href="https://tekwill.md/" target="_blank">Tekwill home</a>
+            <a href="https://tekwill.md/" target="_blank">Our courses</a>
+            <a href="https://tekwill.md/" target="_blank">Special offers</a>
+            <a href="https://tekwill.md/" target="_blank">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Tekwill school</h1>
+        <p style="text-align: center;"> Information</p>
+        <section>
+            <h2> Our history </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Asperiores magnam hic eveniet, aut cumque architecto deserunt libero dignissimos soluta quaerat.</p>
+                <article>
+                    <h3>2000-2005</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, ipsum.</p>
+
+                </article>
+                <article>
+                    <h3>2005-2010</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolore.</p>
+                </article>
+                <article>
+                    <h3>2010-2015</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, voluptatem.</p>
+
+                </article>
+                <article>
+                    <h3>2015-2024</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste?</p>
+                </article>
+        </section>
+        <section>
+            <h2> Our courses </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Non repellat debitis deleniti quia saepe dignissimos vel magnam quo impedit nisi!</p>
+            <article>
+                <h3>Front-End development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae, aperiam?</p>
+            </article>
+            <article>
+                <h3>Python fundamentals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque, laborum.</p>
+            </article>
+            <article>
+                <h3>Java Fundamentals</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Dicta, iste?</p>
+            </article>
+        </section>
+        <section>
+            <h2>Rewiews</h2> 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, animi?</p>
+            <article>
+                <h3>Students feedback</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, autem.</p>
+            </article>
+            <article>
+                <h3>Customers feedback</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, eligendi.</p>
+            </article>
+            <article>
+                <h3>Stakeholders feedback</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, quidem.</p>
+            </article>
+        </section>
+        <aside>
+
+        </aside>
+        <footer>
+            <p>Address: MD-2045, str. Studenților 9/11, mun. Chișinău, Republica Moldova </p>
+            <p>Contacts:</p>
+               <p>office: 0675847362</p>
+            <p>Our socials: </p>
+            <a href="https://tekwill.md/" target="_blank">Google</a>
+            <a href="https://www.facebook.com/tekwill/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/tekwillacademy/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/company/tekwill/?originalSubdomain=md" target="_blank">Linkedin</a>
+        </footer>
+    </main>
     
 </body>
 </html>
